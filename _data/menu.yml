@@ -2,8 +2,10 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: about
-    url: about
+  - title: pages
+    entries:
+      - title: about
+        url: about
 
   - title: all posts
     post_list:
