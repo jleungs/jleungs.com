@@ -12,6 +12,12 @@ entries:
     #      show_more_text: See archive...
     #      show_more_url: archive.html
 
-  - title: rss
-    url: feed.xml
-  
+  - title: links
+    entries:
+      - title: github
+        url: https://github.com/jleungs/
+      - title: linkedin
+        url: https://www.linkedin.com/in/jonathan-leung/
+      - title: rss
+        url: feed.xml
+    

@@ -9,9 +9,6 @@ PhD student in mathematics at University of West London, supervised by Dr. [Thom
 
 Also professional experience as a consultant in cybersecurity, worked with penetration testing and incident response. Particularly enjoy Linux forensics, reverse engineering, and malware analysis.
 
-<div style="clear: both;"></div>
----
-
 ## Research
 
 Interested in special toric geometries, i.e. studying $$n$$-dimensional manifolds with holonomy being a proper subgroup of $$SO(n)$$, equipped with a torus action. Additionally, I am also interested in applications of differential geometry and symmetry in other fields, such as group invariant machine learning.
