@@ -16,10 +16,14 @@ entries:
 
   - title: links
     entries:
+      - title: <a href="https://github.com/jleungs/" target="_blank">github</a> $\quad$ 
+               <a href="https://www.linkedin.com/in/jonathan-leung/" target="_blank">linkedin</a> $\quad$
+               <a href="feed.xml" target="_blank">rss</a>
       - title: github
         url: https://github.com/jleungs/
       - title: linkedin
         url: https://www.linkedin.com/in/jonathan-leung/
       - title: rss
         url: feed.xml
+
 
