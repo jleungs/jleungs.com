@@ -1,8 +1,8 @@
+{%-for item in include.collection-%}
 {%- if item.header -%}
   <p><strong>{{ item.header }}</strong><p>
 {%- else -%}
   <ul>
-    {%-for item in include.collection-%}
       <li>
       {%- if item.url -%}
         <a href="{{ item.url }}">{{ item.title }}</a>
