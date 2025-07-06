@@ -1,7 +1,8 @@
 {%-for item in include.collection-%}
-{%- if item.header -%}
-  <p><strong>{{ item.header }}</strong><p>
-{%- else -%}
+
+  {%- if item.header -%}
+    <p><strong>{{ item.header }}</strong><p>
+  {%- endif -%}
   <ul>
       <li>
       {%- if item.url -%}
@@ -26,5 +27,4 @@
         {%-include menu_item.html collection=item.entries-%}
       {%-endif-%}
   </ul>
-{%- endif -%}
 {%-endfor-%}
