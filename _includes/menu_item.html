@@ -4,7 +4,7 @@
     <p><strong>{{ item.header }}</strong></p>
   {%- endif -%}
 
-  {%- if item.url or item.title or item.post_list -%}
+  {%- if item.url or item.title -%}
     <ul>
       <li>
         {%- if item.url -%}
@@ -12,19 +12,19 @@
         {%- else -%}
           {{ item.title }}
         {%- endif -%}
-
-        {%- if item.post_list -%}
-          {%
-            include post_list.html
-              category  = item.post_list.category
-              limit     = item.post_list.limit
-              show_more = item.post_list.show_more
-              show_more_text = item.post_list.show_more_text
-              show_more_url  = item.post_list.show_more_url
-          -%}
-        {%- endif -%}
       </li>
     </ul>
+  {%- endif -%}
+
+  {%- if item.post_list -%}
+    {%
+      include post_list.html
+        category  = item.post_list.category
+        limit     = item.post_list.limit
+        show_more = item.post_list.show_more
+        show_more_text = item.post_list.show_more_text
+        show_more_url  = item.post_list.show_more_url
+    -%}
   {%- endif -%}
 
   {%- if item.entries -%}
