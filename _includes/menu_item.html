@@ -1,7 +1,7 @@
 {%- for item in include.collection -%}
 
   {%- if item.header -%}
-    <p><strong>{{ item.header }}</strong></p>
+    <h2>{{ item.header }}</h2>
   {%- endif -%}
 
   {%- if item.url or item.title -%}

@@ -4,7 +4,6 @@ email:  # email of site's author
 url: https://jleungs.com # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  mathematics and technology
 
 permalink: /:slug.html
 
@@ -17,7 +16,7 @@ theme_config:
   appearance: "light" # can be "light", "dark" or "auto"
   back_home_text: "home" # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: true # show blog description in home page
+  show_description: false # show blog description in home page
   lowercase_titles: true # show titles in lowercase in lists
 
 sass:
