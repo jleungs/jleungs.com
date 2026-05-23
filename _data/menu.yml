@@ -11,18 +11,18 @@ entries:
         url: contact
 
   #- title: all posts
-  - header: All posts
-    post_list:
-      limit: 5
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
+  #- header: All posts
+  #  post_list:
+  #    limit: 5
+  #    show_more: true
+  #    show_more_text: See archive...
+  #    show_more_url: archive.html
 
   #- title: links
   - header: Links
     entries:
       - title: <a href="https://github.com/jleungs/" target="_blank">github</a> / 
                <a href="https://www.linkedin.com/in/jonathan-leung/" target="_blank">linkedin</a> / 
-               <a href="feed.xml" target="_blank">rss</a>
+               #<a href="feed.xml" target="_blank">rss</a>
 
 
