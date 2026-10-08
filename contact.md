@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact
+title: contact
 ---
 
 If you want to contact me, you can send an email to:

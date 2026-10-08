@@ -7,8 +7,8 @@ entries:
     entries:
       - title: about
         url: about
-      - title: contact
-        url: contact
+      #- title: contact
+      #  url: contact
 
   #- title: all posts
   #- header: All posts
