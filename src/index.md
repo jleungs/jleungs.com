@@ -1,7 +1,5 @@
 ---
 title: Jonathan Leung
-header-includes: |
-  <link rel="icon" type="image/png" href="favicon.png">
 ---
 ## about
 PhD student in mathematics with focus on differential geometry.

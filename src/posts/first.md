@@ -1,7 +1,5 @@
 ---
 title: First post
-header-includes: |
-  <link rel="icon" type="image/png" href="../favicon.png">
 ---
 [home](../index.html) /
 
